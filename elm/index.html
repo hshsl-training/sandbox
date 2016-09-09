@@ -18,7 +18,17 @@
 
   <body>
 
-  <section class="vh100 bg-light-gray p2 border-box">
+  <header class="p2 fixed">
+    <nav>
+      <ul class="list-reset">
+        <li class="mb2"><a href="#blurb" class="block btn btn-outline">Elm blurb</a></li>
+        <li class="mb2"><a href="#blog" class="block btn btn-outline">Elm blog post</a></li>
+        <li class="mb2"><a href="#cal" class="block btn btn-outline">Elm calendar</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <section id="blurb" class="vh100 bg-light-gray p2 border-box">
     <div class="container">
       <p class="h3 center italic">Elm blog front page content card example</p>
       <div class="flex flex-center">
@@ -37,7 +47,7 @@
     </div>
   </section>
 
-  <section class="p4">
+  <section id="blog" class="p4">
     <div class="container">
       <p class="h3 center italic">Elm blog full content post example</p>
       <div class="p3 border">
@@ -74,7 +84,7 @@
     </div>
   </section>
 
-  <section class="vh100 p4 border-box">
+  <section id="cal" class="vh100 p4 border-box">
     <div class="container">
       <p class="h3 center italic">Elm calendar details example</p>
       <p class="h3 green caps">Health Sciences &amp; Human Services Library</p>
